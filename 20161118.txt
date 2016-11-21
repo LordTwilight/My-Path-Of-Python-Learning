@@ -1,17 +1,26 @@
 ﻿# coding=utf-8 
-windows下打开.ipynb文件
+
+windows下打开.ipynb文件(
+使用Jupyter指南)
 
 1.首先要下载python，设置环境变量
 
 2.下载pip，设置环境变量
 
-3.打开命令行，进入到python的Scripts文件中，按顺序执行下面三个命令
+3.安装Visual Studio(pandas module 需要的编译环境)
+4.打开命令行，进入到python的Scripts文件中，按顺序执行下面三个命令
 
-pip install ipython
+pip3 install ipython
 
-pip install “ipython[notebook]”
+pip3 install jupyter
+pip3 install pandas
 
-ipython notebook
 
+------------------------------
+cmd 中输入 ipython (系统环境变量Path中要设置Python\Scripts)
+就会进入ipython
 
-接着就会打开ipython页面
+------------------------------
+进入Python\Scripts后
+点击jupyter-notebook.exe
+便可进入Jupyter的Html页面
