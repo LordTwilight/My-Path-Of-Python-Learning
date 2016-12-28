@@ -1,0 +1,20 @@
+﻿#coding:utf-8
+怎样在多个python版本下运行脚本
+
+
+1.在py文件第一行加入
+#! python2
+#coding=utf-8
+
+OR
+
+#! python3
+#coding=utf-8
+
+OR
+
+#! D:/Python3.X/Python.exe
+
+2.在cmd中运行python脚本时这样写
+>python -3 -m pip install sth
+>python -2 -m pip install sth
